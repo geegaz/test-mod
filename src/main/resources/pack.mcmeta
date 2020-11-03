@@ -1,7 +1,0 @@
-{
-    "pack": {
-        "description": "testmod resources",
-        "pack_format": 5,
-        "_comment": "This pack refuses to work no matter what"
-    }
-}

@@ -14,7 +14,7 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "test.TestModInitializer"
+      "geegaz.testmod.TestModInitializer"
     ],
     "client": [],
     "server": []

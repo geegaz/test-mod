@@ -1,4 +1,4 @@
-package test;
+package geegaz.testmod;
 
 import net.fabricmc.api.ModInitializer;
 import net.minecraft.item.Item;
@@ -17,14 +17,14 @@ public class TestModInitializer implements ModInitializer {
     public static final String MOD_ID = "testmod";
     public static final String MOD_NAME = "Test Mod";
 
-    // Instance Items
+    // Instance Item
     public static final Item FABRIC_ITEM = new Item(new Item.Settings().group(ItemGroup.MISC));
 
     @Override
     public void onInitialize() {
         log(Level.INFO, "Initializing");
 
-        // Register Items
+        // Register Item
         Registry.register(Registry.ITEM, new Identifier(MOD_ID, "orb"), FABRIC_ITEM);
     }
 
