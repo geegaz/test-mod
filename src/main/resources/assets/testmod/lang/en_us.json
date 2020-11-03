@@ -1,4 +1,5 @@
 {
-    "item.testmod.orb": "Orb",
-    "item.testmod.cloth": "Cloth Piece"
+    "item.testmod.orb": "Glass Orb",
+    "item.testmod.cloth": "Cloth Piece",
+    "item.testmod.small_feather": "Small Feather"
 }

@@ -3,7 +3,7 @@
   "id": "testmod",
   "version": "${version}",
   "name": "Test Mod",
-  "description": "A simple test mod to try Fabric modding",
+  "description": "A simple try at Fabric modding",
   "authors": [
     "Geegaz"
   ],
@@ -14,13 +14,14 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "geegaz.testmod.TestModInitializer"
+      "geegaz.testmod.TestMod"
     ],
     "client": [],
     "server": []
   },
   "mixins": [],
   "depends": {
-    "fabricloader": ">=0.10.6"
+    "fabricloader": ">=0.10.6",
+    "fabric": "*"
   }
 }
