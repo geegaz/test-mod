@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "testmod",
+  "version": "${version}",
+  "name": "Test Mod",
+  "description": "A simple test mod to try Fabric modding",
+  "authors": [
+    "Geegaz"
+  ],
+  "contributors": [],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/testmod/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "test.TestModInitializer"
+    ],
+    "client": [],
+    "server": []
+  },
+  "mixins": [],
+  "depends": {
+    "fabricloader": ">=0.10.6"
+  }
+}
