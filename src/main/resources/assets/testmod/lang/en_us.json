@@ -1,5 +1,9 @@
 {
+    "itemGroup.testmod.items": "Test Mod Items",
+    "itemGroup.testmod.blocks": "Test Mod Blocks",
+    
     "item.testmod.orb": "Glass Orb",
     "item.testmod.cloth": "Cloth Piece",
-    "item.testmod.small_feather": "Small Feather"
+    "item.testmod.small_feather": "Small Feather",
+    "item.testmod.small_feather.tooltip": "A small pendant. Is it a feather or a leaf ?"
 }

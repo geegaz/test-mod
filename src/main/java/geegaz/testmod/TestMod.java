@@ -19,7 +19,7 @@ public class TestMod implements ModInitializer {
     public void onInitialize() {
         log(Level.INFO, "Initializing");
         
-        // Register every item
+        // Initialize every Registry
         ItemRegistry.init();
     }
 
